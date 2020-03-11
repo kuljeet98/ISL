@@ -13,3 +13,6 @@ srdir = '/content/openpose/output/'
 for videos in os.listdir(srdir):
   if videos.endswith(".mp4"):
     shutil.copy(srdir+videos,'/content/drive/My Drive/PROJECT_DATA/OpenPose/tuesday')
+
+#Renaming.ipynb
+This file is to rename the different pattern named videos to same pattern named videos. Firstly, some of the videos names were like Monday001.mp4 and rest were like MONDAY1.mp4. Now I have renamed all those videos into the same named videos like Monday_1.mp4 And the counter keeps on incrementing for every video.
